@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.sidebar{
+  text-align: center;
+}
+.sidebarlist{
+  text-align: center;
+}
+.Marquee{
+  font-family:"Times New Roman";
+  font-size: 25px;
+  font-style: italic;
+}
+.zoom { 
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+
+.box{
+  overflow:hidden;
+  max-height:220px;
+  
+}
+  
+#intro-example {
+  height: 400px;
+}
+
+
+@media (min-width: 992px) {
+  #intro-example {
+      height: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar{
+      display: none;
+  }
+}
